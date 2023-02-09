@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background: rgb(10, 14, 17);
+    color: rgb(241, 239, 231);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+$red: rgb(175, 28, 28);
+$bone: rgb(241, 239, 231);
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+.page-wrapper {
+    height: 100vh;
+
+    .section-block {
+        width: 100vw; 
+        height: 100vh;
+        padding: 3rem;
+    }
+}
+
+.nav-wrapper {
+    position:absolute;
+    top: 0; 
+    left: 0;
+    z-index: 10;
+    .navigation-wrapper {
+        display: flex;
+        padding: 0;
+        li {
+            color: $red;
+            list-style-type: none;
+            padding: 2rem;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+    }
+}
+
+.section-inner {
+  
+    width: 80%;
+}
+
+.section-inner-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    div {
+        width: 50%;
+    }
+}
+
+.section-block {
+    margin-top: 5rem;
+}
+
+
+.section-block-intro {
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    height: 90vh;
+
+    h1 {
+        font-size: 10rem;
+        line-height: 10rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: $bone;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 5rem;
+        font-weight: 300;
+        color: $red;
+    }
+
+}
+
+.home-wrapper {
+
+    a {
+        text-decoration: none;
+    }
+    h1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 10rem;
+        line-height: 10rem;
+        color: $bone;
+        text-transform: uppercase;
+    }
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 5rem;
+        line-height: 5rem;
+        color: $red;
+    }
+
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 5rem;
+        line-height: 5rem;
+        -webkit-text-stroke: 1px $red;
+        font-family: arial; 
+        color: transparent;
+    }
+
+    h4 {
+        font-family:'Courier New', Courier, monospace;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 7rem;
+        line-height: 7rem;
+        -webkit-text-stroke: 1px $bone;
+        font-family: arial; 
+        color: transparent;
+    }
+    
+}
+
+.setup {
+    width: 70% !important;
+
+}
+
+.legend {
+    width: 30% !important;
+    background-color:rgb(175, 28, 28);
+    height: 100%;
+}
+
+#home-info {
+    width: 80%
+}
