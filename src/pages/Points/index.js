@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Routes, Route } from 'react-router-dom';
-import HorizontalScroll from 'react-scroll-horizontal'
+// import HorizontalScroll from 'react-scroll-horizontal'
 import Nav from '../../components/Nav';
 import { Link } from 'react-router-dom';
 
@@ -10,15 +10,15 @@ function Points() {
           <div className="page-wrapper">
             <Nav/>
 
-            <HorizontalScroll reverseScroll = { true }>
+            {/* <HorizontalScroll reverseScroll = { true }> */}
             <section className="section-block section-block-intro">
 
                 <div>
-                <h4>Physical:</h4> 
+                <h4>Physical:</h4>
                 vision and relativity
-                <h4>Philosophic:</h4> 
+                <h4>Philosophic:</h4>
                 perception and opinion
-                <h4>Visual:</h4> 
+                <h4>Visual:</h4>
                 <b>form</b>, valume, values
                 </div>
                 <div>
@@ -29,7 +29,7 @@ function Points() {
                         <p>looking at the same thing from the different angles, forming the perception</p>
                     </div>
                 </div>
-            </section>  
+            </section>
             <section className="section-block section-block-idea" >
                 <div className="section-inner">
                 <h2>Idea</h2>
@@ -71,7 +71,7 @@ function Points() {
                 <p>02. forms of clusters</p>
                 <p>03. light and reflective holograms</p>
             </section>
-            </HorizontalScroll>
+            {/* </HorizontalScroll> */}
             </div>
         </div>
 

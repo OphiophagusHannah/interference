@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../../components/Footer';
-import HorizontalScroll from 'react-scroll-horizontal'
+// import HorizontalScroll from 'react-scroll-horizontal'
 import Nav from '../../components/Nav';
 import { Link } from 'react-router-dom';
 
@@ -10,15 +10,15 @@ function Waves() {
 <div className="page-wrapper">
             <Nav/>
 
-            <HorizontalScroll reverseScroll = { true }>
+            {/* <HorizontalScroll reverseScroll = { true }> */}
             <section className="section-block section-block-intro">
 
                 <div>
-                <h4>Physical:</h4> 
+                <h4>Physical:</h4>
                 materia and wholeness
-                <h4>Philosophic:</h4> 
-                connections 
-                <h4>Visual:</h4> 
+                <h4>Philosophic:</h4>
+                connections
+                <h4>Visual:</h4>
                 <b>form</b>, valume, values
                 </div>
                 <div>
@@ -29,7 +29,7 @@ function Waves() {
                         <p>existing in cohesive layers that influence each other in interconnected web of all different things</p>
                     </div>
                 </div>
-            </section>  
+            </section>
             <section className="section-block section-block-idea" >
                 <div className="section-inner">
                 <h2>Idea</h2>
@@ -69,7 +69,7 @@ function Waves() {
                 <p>02. forms of clusters</p>
                 <p>03. light and reflective holograms</p>
             </section>
-            </HorizontalScroll>
+            {/* </HorizontalScroll> */}
             </div>
         </div>
 

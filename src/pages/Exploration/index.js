@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import { Link } from 'react-router-dom';
-import HorizontalScroll from 'react-scroll-horizontal'
+// import HorizontalScroll from 'react-scroll-horizontal'
 import Nav from '../../components/Nav';
 
 function Exploration() {
@@ -9,15 +9,15 @@ function Exploration() {
         <div>
             <div className="page-wrapper">
             <Nav/>
-            <HorizontalScroll reverseScroll = { true }>
+            {/* <HorizontalScroll reverseScroll = { true }> */}
             <section className="section-block section-block-intro">
 
                 <div>
-                <h4>Physical:</h4> 
+                <h4>Physical:</h4>
                 scale and light
-                <h4>Philosophic:</h4> 
+                <h4>Philosophic:</h4>
                 discovery, experience
-                <h4>Visual:</h4> 
+                <h4>Visual:</h4>
                 direction, <b>lines</b>, darkness
                 </div>
                 <div>
@@ -28,7 +28,7 @@ function Exploration() {
                         <p>discovery of the direction through traveling with the light, making choices</p>
                     </div>
                 </div>
-            </section>  
+            </section>
             <section className="section-block section-block-idea" >
                 <div className="section-inner">
                 <h2>Idea</h2>
@@ -72,7 +72,7 @@ function Exploration() {
                 <p>04. Graph/plan of installation</p>
                 <p>05. Research on beam move</p>
             </section>
-            </HorizontalScroll>
+            {/* </HorizontalScroll> */}
             </div>
         </div>
 
